@@ -1,5 +1,5 @@
 # DL_FS2K
-Comparision of several CNN based networks on human face attribute classification. 6 methods related to light-weight convolutional neural networks are implemented on [FS2K](https://github.com/DengPingFan/FS2K), and results are presented in table format as below:
+Comparision of several CNN based networks on human face attribute classification. 6 methods related to light-weight convolutional neural networks are implemented using pytorch, and results on [FS2K](https://github.com/DengPingFan/FS2K) are presented in table format as below:
 
 
 1. Accuracy of 6 attributes
@@ -66,7 +66,7 @@ DL_FS2K
 ```
 
 
-## training
+## Train
 - ipynb
   1. open the corresponding *.ipynb file
   2. the train func is defined as below:
@@ -106,7 +106,7 @@ class MobileNetV3(nn.Module):
   the `.pth` file will be written under `./save/model` as default
 
 
-## validation
+## Validate
 - ipynb
   
   execute the val function as below to validate the `.ckpt` file
