@@ -118,3 +118,9 @@ class MobileNetV3(nn.Module):
 - py
   
   model will be validated automatically while training
+
+## Acknowledge
+All the backbone network implementations above are from github.  [MobileNet](https://github.com/Tramac/mobilenetv3-segmentation/) is from `Tramac`. [EfficientNet](https://github.com/d-li14/efficientnetv2.pytorch) is from `d-li14`. [SuffleNet](https://github.com/jaxony/ShuffleNet) is from `jaxony`.
+
+## License
+[GNU General Public License v3](LICENSE)
