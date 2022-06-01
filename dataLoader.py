@@ -44,7 +44,7 @@ class DS(Dataset):
 
 
 # 实例化Dataset
-dataD = Path('./FS2K')
+dataD = Path('./data/FS2K')
 train_ds = DS(dataD)
 val_ds = DS(dataD, 'test')
 
